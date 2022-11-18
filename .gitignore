@@ -1,9 +1,0 @@
-# Node
-node_modules
-yarn-error.log
-
-# MacOS
-**/.DS_Store
-
-# turbo
-.turbo
