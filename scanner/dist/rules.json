@@ -1,0 +1,1095 @@
+[
+  {
+    "replace": "$iui-baseline(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "suggestion",
+    "description": "`$iui-baseline` has been removed. The closest variable is `--iui-size-s` (12px). Line height was also changed from 22px to 24px, so 12px would be half of line height."
+  },
+  {
+    "replace": "$iui-line-height(?![a-zA-Z0-9-])",
+    "with": "var(--iui-size-l)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-color-dataviz-skyblue(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No counterpart as iTwinUI is not using this value - the value was hsl(204, 77%, 67%)"
+  },
+  {
+    "replace": "$iui-color-dataviz-celery(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No counterpart as iTwinUI is not using this value - the value was hsl(72, 51%, 56%)"
+  },
+  {
+    "replace": "$iui-color-dataviz-froly(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No counterpart as iTwinUI is not using this value - the value was hsl(2, 90%, 70%)"
+  },
+  {
+    "replace": "$iui-color-dataviz-steelblue(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No counterpart as iTwinUI is not using this value - the value was hsl(200, 41%, 46%)"
+  },
+  {
+    "replace": "$iui-color-dataviz-sunglow(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No counterpart as iTwinUI is not using this value - the value was hsl(42, 100%, 60%)"
+  },
+  {
+    "replace": "$iui-color-dataviz-seabuckthorn(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No counterpart as iTwinUI is not using this value - the value was hsl(29, 92%, 61%)"
+  },
+  {
+    "replace": "$iui-color-dataviz-montecarlo(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No counterpart as iTwinUI is not using this value - the value was hsl(176, 43%, 62%)"
+  },
+  {
+    "replace": "$iui-color-dataviz-poloblue(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No counterpart as iTwinUI is not using this value - the value was hsl(211, 44%, 67%)"
+  },
+  {
+    "replace": "$iui-color-dataviz-bouquet(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No counterpart as iTwinUI is not using this value - the value was hsl(305, 19%, 55%)"
+  },
+  {
+    "replace": "$iui-color-dataviz-ash(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No counterpart as iTwinUI is not using this value - the value was hsl(42, 15%, 75%)"
+  },
+  {
+    "replace": "$iui-color-dataviz-oak(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No counterpart as iTwinUI is not using this value - the value was hsl(27, 32%, 49%)"
+  },
+  {
+    "replace": "$iui-color-background-skyblue(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-background-skyblue)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-color-background-celery(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-background-celery)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-color-background-froly(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-background-froly)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-color-background-steelblue(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-background-steelblue)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-color-background-sunglow(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-background-sunglow)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-color-background-seabuckthorn(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-background-seabuckthorn)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-color-background-montecarlo(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-background-montecarlo)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-color-background-poloblue(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-background-poloblue)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-color-background-bouquet(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-background-bouquet)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-color-background-ash(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-background-ash)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-color-background-oak(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-background-oak)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-color-system-red(?![a-zA-Z0-9-])",
+    "with": "red",
+    "is_regex": 1,
+    "type": "suggestion",
+    "description": "No counterpart as iTwinUI is not using this value - the value was #F00. The closest css color code is red."
+  },
+  {
+    "replace": "$iui-color-system-burgundi(?![a-zA-Z0-9-])",
+    "with": "maroon",
+    "is_regex": 1,
+    "type": "suggestion",
+    "description": "No counterpart as iTwinUI is not using this value - the value was #900. The closest css color code is maroon."
+  },
+  {
+    "replace": "$iui-color-system-orange(?![a-zA-Z0-9-])",
+    "with": "orange",
+    "is_regex": 1,
+    "type": "suggestion",
+    "description": "No counterpart as iTwinUI is not using this value - the value was #F90. The closest css color code is orange."
+  },
+  {
+    "replace": "$iui-color-system-yellow(?![a-zA-Z0-9-])",
+    "with": "yellow",
+    "is_regex": 1,
+    "type": "suggestion",
+    "description": "No counterpart as iTwinUI is not using this value - the value was #FF0. The closest css color code is yellow."
+  },
+  {
+    "replace": "$iui-color-system-green(?![a-zA-Z0-9-])",
+    "with": "limegreen",
+    "is_regex": 1,
+    "type": "suggestion",
+    "description": "No counterpart as iTwinUI is not using this value - the value was #6C0. The closest css color code is limegreen."
+  },
+  {
+    "replace": "$iui-color-system-cyan(?![a-zA-Z0-9-])",
+    "with": "deepskyblue",
+    "is_regex": 1,
+    "type": "suggestion",
+    "description": "No counterpart as iTwinUI is not using this value - the value was #0CF. The closest css color code is deepskyblue."
+  },
+  {
+    "replace": "$iui-color-system-blue(?![a-zA-Z0-9-])",
+    "with": "blue",
+    "is_regex": 1,
+    "type": "suggestion",
+    "description": "No counterpart as iTwinUI is not using this value - the value was #03F. The closest css color code is blue."
+  },
+  {
+    "replace": "$iui-color-system-magenta(?![a-zA-Z0-9-])",
+    "with": "mediumorchid",
+    "is_regex": 1,
+    "type": "suggestion",
+    "description": "No counterpart as iTwinUI is not using this value - the value was #C3F. The closest css color code is mediumorchid."
+  },
+  {
+    "replace": "$iui-color-system-turquoise(?![a-zA-Z0-9-])",
+    "with": "aquamarine",
+    "is_regex": 1,
+    "type": "suggestion",
+    "description": "No counterpart as iTwinUI is not using this value - the value was #6FC. The closest css color code is aquamarine."
+  },
+  {
+    "replace": "$iui-color-system-gray(?![a-zA-Z0-9-])",
+    "with": "darkgray",
+    "is_regex": 1,
+    "type": "suggestion",
+    "description": "No counterpart as iTwinUI is not using this value - the value was #999. The closest css color code is darkgray."
+  },
+  {
+    "replace": "$iui-elevation-color(?![a-zA-Z0-9-])",
+    "with": "var(--iui-shadow-color)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-elevation-0(?![a-zA-Z0-9-])",
+    "with": "var(--iui-shadow-0)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "`$iui-elevation-x` > `--iui-shadow-x`"
+  },
+  {
+    "replace": "$iui-elevation-2(?![a-zA-Z0-9-])",
+    "with": "var(--iui-shadow-1)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "`$iui-elevation-x` > `--iui-shadow-x`"
+  },
+  {
+    "replace": "$iui-elevation-4(?![a-zA-Z0-9-])",
+    "with": "var(--iui-shadow-2)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "`$iui-elevation-x` > `--iui-shadow-x`"
+  },
+  {
+    "replace": "$iui-elevation-8(?![a-zA-Z0-9-])",
+    "with": "var(--iui-shadow-3)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "`$iui-elevation-x` > `--iui-shadow-x`"
+  },
+  {
+    "replace": "$iui-elevation-16(?![a-zA-Z0-9-])",
+    "with": "var(--iui-shadow-4)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "`$iui-elevation-x` > `--iui-shadow-x`"
+  },
+  {
+    "replace": "$iui-elevation-24(?![a-zA-Z0-9-])",
+    "with": "var(--iui-shadow-5)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "`$iui-elevation-x` > `--iui-shadow-x`"
+  },
+  {
+    "replace": "$iui-xxs(?![a-zA-Z0-9-])",
+    "with": "var(--iui-size-3xs)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Size variables: `$iui-xxx` > `--iui-size-xxx`"
+  },
+
+  {
+    "replace": "$iui-xs(?![a-zA-Z0-9-])",
+    "with": "var(--iui-size-2xs)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Size variables: `$iui-xxx` > `--iui-size-xxx`"
+  },
+
+  {
+    "replace": "$iui-s(?![a-zA-Z0-9-])",
+    "with": "var(--iui-size-xs)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Size variables: `$iui-xxx` > `--iui-size-xxx`"
+  },
+
+  {
+    "replace": "$iui-sm(?![a-zA-Z0-9-])",
+    "with": "var(--iui-size-s)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Size variables: `$iui-xxx` > `--iui-size-xxx`"
+  },
+
+  {
+    "replace": "$iui-m(?![a-zA-Z0-9-])",
+    "with": "var(--iui-size-m)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Size variables: `$iui-xxx` > `--iui-size-xxx`"
+  },
+
+  {
+    "replace": "$iui-l(?![a-zA-Z0-9-])",
+    "with": "var(--iui-size-l)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Size variables: `$iui-xxx` > `--iui-size-xxx`"
+  },
+
+  {
+    "replace": "$iui-xl(?![a-zA-Z0-9-])",
+    "with": "var(--iui-size-xl)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Size variables: `$iui-xxx` > `--iui-size-xxx`"
+  },
+
+  {
+    "replace": "$iui-xxl(?![a-zA-Z0-9-])",
+    "with": "var(--iui-size-2xl)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Size variables: `$iui-xxx` > `--iui-size-xxx`"
+  },
+
+  {
+    "replace": "$iui-3xl(?![a-zA-Z0-9-])",
+    "with": "var(--iui-size-3xl)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Size variables: `$iui-xxx` > `--iui-size-xxx`"
+  },
+  {
+    "replace": "$iui-speed-instant(?![a-zA-Z0-9-])",
+    "with": "var(--iui-duration-0)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "`$iui-speed-x` > `--iui-duration-x`"
+  },
+  {
+    "replace": "$iui-speed-fast(?![a-zA-Z0-9-])",
+    "with": "var(--iui-duration-1)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "`$iui-speed-x` > `--iui-duration-x`"
+  },
+  {
+    "replace": "$iui-speed(?![a-zA-Z0-9-])",
+    "with": "var(--iui-duration-2)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "`$iui-speed-x` > `--iui-duration-x`"
+  },
+  {
+    "replace": "$iui-speed-slow(?![a-zA-Z0-9-])",
+    "with": "var(--iui-duration-3)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "`$iui-speed-x` > `--iui-duration-x`"
+  },
+  {
+    "replace": "$iui-color-background-1(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-background)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Also, use --iui-color-background-hover for the hover state"
+  },
+  {
+    "replace": "$iui-color-background-2(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-background-backdrop)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Also, use --iui-color-background-backdrop-hover for the hover state"
+  },
+  {
+    "replace": "$iui-color-background-3(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No counterpart. Consider changing to var(--iui-color-background)"
+  },
+  {
+    "replace": "$iui-color-background-4(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "General use: Consider changing to var(--iui-color-background). Using this as a border: Change to --iui-color-border-subtle"
+  },
+  {
+    "replace": "$iui-color-background-5(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "General use: Consider changing to var(--iui-color-background). Using this as a border: Change to --iui-color-border"
+  },
+  {
+    "replace": "$iui-color-background-primary(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "Replace with `var(--iui-color-background-informational)` or `var(--iui-color-background-accent)`. Currently the default for 'accent' is the same as 'informational', but branding colors can be introduced by replacing `--iui-color-background-accent`"
+  },
+  {
+    "replace": "$iui-color-background-positive(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-background-positive)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-color-background-warning(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-background-warning)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-color-background-negative(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-background-negative)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-color-background-disabled(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-background-disabled)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-color-background-border(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-border)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-color-foreground-body(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No direct counterpart as iTwinUI is not using this value. Good luck, sorry."
+  },
+  {
+    "replace": "$iui-color-foreground-body-invert(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No direct counterpart as iTwinUI is not using this value. Good luck, sorry."
+  },
+  {
+    "replace": "$iui-color-foreground-accessory(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-white)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Foreground color variable changes"
+  },
+  {
+    "replace": "$iui-color-foreground-primary(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "Replace with `var(--iui-color-icon)` or `var(--iui-color-border)` or `var(--iui-color-text-accent)` or `var(--iui-color-text-informational)`"
+  },
+  {
+    "replace": "$iui-color-foreground-positive(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "Replace with `var(--iui-color-icon)` or `var(--iui-color-border)` or `var(--iui-color-text-positive)`"
+  },
+  {
+    "replace": "$iui-color-foreground-warning(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "Replace with `var(--iui-color-icon)` or `var(--iui-color-border)` or `var(--iui-color-text-warning)`"
+  },
+  {
+    "replace": "$iui-color-foreground-negative(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "Replace with `var(--iui-color-icon)` or `var(--iui-color-border)` or `var(--iui-color-text-negative)`"
+  },
+  {
+    "replace": "$iui-color-background-1-overlay(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-background-hover)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-color-background-primary-overlay(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "Replace with `var(--iui-color-background-accent-hover)` or `var(--iui-color-background-informational-hover)`. Currently the default for 'accent' is the same as 'informational', but branding colors can be introduced by replacing `--iui-color-background-accent-hover`"
+  },
+  {
+    "replace": "$iui-color-background-positive-overlay(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-background-positive-hover)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-color-background-warning-overlay(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-background-warning-hover)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-color-background-negative-overlay(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-background-negative-hover)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-color-foreground-primary-overlay(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "Replace with `var(--iui-color-text-accent-hover)` or `var(--iui-color-text-informational-hover)`. Currently the default for 'accent' is the same as 'informational', but branding colors can be introduced by replacing `--iui-color-text-accent-hover`"
+  },
+  {
+    "replace": "$iui-color-foreground-positive-overlay(?![a-zA-Z0-9-])",
+    "with": "var(--iui-iui-color-text-positive-hover)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-color-foreground-warning-overlay(?![a-zA-Z0-9-])",
+    "with": "var(--iui-iui-color-text-warning-hover)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-color-foreground-negative-overlay(?![a-zA-Z0-9-])",
+    "with": "var(--iui-iui-color-text-negative-hover)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-opacity-1(?![a-zA-Z0-9-])",
+    "with": "var(--iui-opacity-1)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-opacity-2(?![a-zA-Z0-9-])",
+    "with": "var(--iui-opacity-2)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-opacity-3(?![a-zA-Z0-9-])",
+    "with": "var(--iui-opacity-3)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-opacity-4(?![a-zA-Z0-9-])",
+    "with": "var(--iui-opacity-4)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-opacity-5(?![a-zA-Z0-9-])",
+    "with": "var(--iui-opacity-5)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-opacity-6(?![a-zA-Z0-9-])",
+    "with": "var(--iui-opacity-6)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-text-color(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-text)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Text color variable changes"
+  },
+  {
+    "replace": "$iui-text-color-muted(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-text-muted)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Text color variable changes"
+  },
+  {
+    "replace": "$iui-text-color-placeholder(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-text-disabled)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Text color variable changes"
+  },
+  {
+    "replace": "$iui-icons-color(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-icon-muted)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Icon color variable changes"
+  },
+  {
+    "replace": "$iui-icons-color-actionable(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-icon)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Icon color variable changes"
+  },
+  {
+    "replace": "$iui-icons-color-actionable-hover(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-icon-hover)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Icon color variable changes"
+  },
+  {
+    "replace": "$iui-icons-color-actionable-disabled(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-icon-disabled)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Icon color variable changes"
+  },
+  {
+    "replace": "$iui-icons-color-primary(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "Replace with var(--iui-color-icon-accent) or var(--iui-color-icon-informational)"
+  },
+  {
+    "replace": "$iui-icons-color-positive(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-icon-positive)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Icon color variable changes"
+  },
+  {
+    "replace": "$iui-icons-color-warning(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-icon-warning)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Icon color variable changes"
+  },
+  {
+    "replace": "$iui-icons-color-negative(?![a-zA-Z0-9-])",
+    "with": "var(--iui-color-icon-negative)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Icon color variable changes"
+  },
+  {
+    "replace": "var(--iui-text-color)",
+    "with": "var(--iui-color-text)",
+    "is_regex": 0,
+    "type": "autoswap",
+    "description": "Name change"
+  },
+  {
+    "replace": "var(--iui-text-color-muted)",
+    "with": "var(--iui-color-text-muted)",
+    "is_regex": 0,
+    "type": "autoswap",
+    "description": "Name change"
+  },
+  {
+    "replace": "var(--iui-text-color-placeholder)",
+    "with": "var(--iui-color-text-disabled)",
+    "is_regex": 0,
+    "type": "autoswap",
+    "description": "Name change"
+  },
+  {
+    "replace": "var(--iui-icons-color-primary)",
+    "with": "",
+    "is_regex": 0,
+    "type": "manual",
+    "description": "Replace with `var(--iui-color-icon-accent)` or `var(--iui-color-icon-informational)`. Currently the default for 'accent' is the same as 'informational', but branding colors can be introduced by replacing `--iui-color-icon-accent`"
+  },
+  {
+    "replace": "var(--iui-icons-color-positive)",
+    "with": "var(--iui-color-icon-positive)",
+    "is_regex": 0,
+    "type": "autoswap",
+    "description": "Name change"
+  },
+  {
+    "replace": "var(--iui-icons-color-warning)",
+    "with": "var(--iui-color-icon-warning)",
+    "is_regex": 0,
+    "type": "autoswap",
+    "description": "Name change"
+  },
+  {
+    "replace": "var(--iui-icons-color-negative)",
+    "with": "var(--iui-color-icon-negative)",
+    "is_regex": 0,
+    "type": "autoswap",
+    "description": "Name change"
+  },
+  {
+    "replace": "var(--iui-icons-color)",
+    "with": "var(--iui-color-icon-muted)",
+    "is_regex": 0,
+    "type": "autoswap",
+    "description": "Name change"
+  },
+  {
+    "replace": "var(--iui-icons-color-actionable)",
+    "with": "var(--iui-color-icon)",
+    "is_regex": 0,
+    "type": "autoswap",
+    "description": "Name change"
+  },
+  {
+    "replace": "var(--iui-icons-color-actionable-hover)",
+    "with": "var(--iui-color-icon-hover)",
+    "is_regex": 0,
+    "type": "autoswap",
+    "description": "Name change"
+  },
+  {
+    "replace": "var(--iui-icons-color-actionable-disabled)",
+    "with": "var(--iui-color-icon-disabled)",
+    "is_regex": 0,
+    "type": "autoswap",
+    "description": "Name change"
+  },
+  {
+    "replace": "$iui-sans-fallback(?![a-zA-Z0-9-])",
+    "with": "var(--iui-font-sans)",
+    "is_regex": 1,
+    "type": "suggestion",
+    "description": "Typography changes - this value used to be all backup fonts and not the primary font. iTwinUI no longer uses this value. It used to be `-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif`"
+  },
+  {
+    "replace": "$iui-sans(?![a-zA-Z0-9-])",
+    "with": "var(--iui-font-sans)",
+    "is_regex": 1,
+    "type": "suggestion",
+    "description": "Typography changes - this value used to be the primary font. iTwinUI no longer uses this value. It used to be `'Open Sans'`"
+  },
+  {
+    "replace": "$iui-monospace(?![a-zA-Z0-9-])",
+    "with": "var(--iui-font-mono)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Typography changes"
+  },
+  {
+    "replace": "$iui-font-family(?![a-zA-Z0-9-])",
+    "with": "var(--iui-font-sans)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Typography changes"
+  },
+  {
+    "replace": "$iui-font-size(?![a-zA-Z0-9-])",
+    "with": "var(--iui-font-size-1)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Typography Font Sizes: `$iui-font-size-x` > `var(---iui-font-size-x)`"
+  },
+  {
+    "replace": "$iui-font-size-small(?![a-zA-Z0-9-])",
+    "with": "var(--iui-font-size-0)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Typography Font Sizes: `$iui-font-size-x` > `var(---iui-font-size-x)`"
+  },
+  {
+    "replace": "$iui-font-size-leading(?![a-zA-Z0-9-])",
+    "with": "var(--iui-font-size-2)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Typography Font Sizes: `$iui-font-size-x` > `var(---iui-font-size-x)`"
+  },
+  {
+    "replace": "$iui-font-size-subheading(?![a-zA-Z0-9-])",
+    "with": "var(--iui-font-size-3)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Typography Font Sizes: `$iui-font-size-x` > `var(---iui-font-size-x)`"
+  },
+  {
+    "replace": "$iui-font-size-title(?![a-zA-Z0-9-])",
+    "with": "var(--iui-font-size-4)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Typography Font Sizes: `$iui-font-size-x` > `var(---iui-font-size-x)`"
+  },
+  {
+    "replace": "$iui-font-size-headline(?![a-zA-Z0-9-])",
+    "with": "var(--iui-font-size-5)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Typography Font Sizes: `$iui-font-size-x` > `var(---iui-font-size-x)`"
+  },
+  {
+    "replace": "$iui-cap-size(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No counterpart. iTwinUI is not using this value. It used to be `10px`."
+  },
+  {
+    "replace": "$iui-cap-size-small(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No counterpart. iTwinUI is not using this value. It used to be `9px`."
+  },
+  {
+    "replace": "$iui-cap-size-leading(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No counterpart. iTwinUI is not using this value. It used to be `12px`."
+  },
+  {
+    "replace": "$iui-cap-size-subheading(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No counterpart. iTwinUI is not using this value. It used to be `13px`."
+  },
+  {
+    "replace": "$iui-cap-size-title(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No counterpart. iTwinUI is not using this value. It used to be `17px`."
+  },
+  {
+    "replace": "$iui-cap-size-headline(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No counterpart. iTwinUI is not using this value. It used to be `23px`."
+  },
+  {
+    "replace": "$iui-font-weight-light(?![a-zA-Z0-9-])",
+    "with": "var(--iui-font-weight-light)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-font-weight-normal(?![a-zA-Z0-9-])",
+    "with": "var(--iui-font-weight-normal)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-font-weight-semibold(?![a-zA-Z0-9-])",
+    "with": "var(--iui-font-weight-semibold)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-font-weight-bold(?![a-zA-Z0-9-])",
+    "with": "var(--iui-font-weight-bold)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-font-loaded-class(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No counterpart. iTwinUI is not using this value. It used to be `null !default`."
+  },
+  {
+    "replace": "$iui-border-radius(?![a-zA-Z0-9-])",
+    "with": "var(--iui-border-radius-1)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Border radius variables: `$iui-border-radius` > `--iui-border-radius-xxx`"
+  },
+  {
+    "replace": "$iui-border-radius-round(?![a-zA-Z0-9-])",
+    "with": "var(--iui-border-radius-round)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": "Border radius variables: `$iui-border-radius` > `--iui-border-radius-xxx`"
+  },
+  {
+    "replace": "$iui-blur-filter(?![a-zA-Z0-9-])",
+    "with": "blur(5px)",
+    "is_regex": 1,
+    "type": "suggestion",
+    "description": "No counterpart. iTwinUI is not using this value. Please hardcode the previous value `blur(5px)`."
+  },
+  {
+    "replace": "$iui-component-offset(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No counterpart. iTwinUI is not using this value. It used to be `3px`."
+  },
+  {
+    "replace": "$iui-component-height(?![a-zA-Z0-9-])",
+    "with": "var(--iui-component-height)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-component-height-small(?![a-zA-Z0-9-])",
+    "with": "var(--iui-component-height-small)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-component-height-large(?![a-zA-Z0-9-])",
+    "with": "var(--iui-component-height-large)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-component-padding-horizontal(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No counterpart. iTwinUI is not using this value. It used to be `$iui-sm`."
+  },
+  {
+    "replace": "$iui-component-padding-vertical(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No counterpart. iTwinUI is not using this value. It used to be `(($iui-component-height - $iui-line-height) * 0.5) - 1`, which equaled 12.5px."
+  },
+  {
+    "replace": "$iui-component-padding-vertical-small(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No counterpart. iTwinUI is not using this value. It used to be `(($iui-component-height-small - $iui-line-height) * 0.5) - 1`, which equaled 7px."
+  },
+  {
+    "replace": "$iui-component-padding-vertical-large(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No counterpart. iTwinUI is not using this value. It used to be `$iui-component-padding-vertical-large: (($iui-component-height-large - $iui-line-height) * 0.5) - 1`, which equaled 18px."
+  },
+  {
+    "replace": "$iui-badge-background-default(?![a-zA-Z0-9-])",
+    "with": "var(--iui-badge-background-color)",
+    "is_regex": 1,
+    "type": "",
+    "description": ""
+  },
+  {
+    "replace": "$iui-badge-background-primary(?![a-zA-Z0-9-])",
+    "with": "$iui-badge-background-informational",
+    "is_regex": 1,
+    "type": "",
+    "description": ""
+  },
+  {
+    "replace": "$iui-badge-text-color(?![a-zA-Z0-9-])",
+    "with": "",
+    "is_regex": 1,
+    "type": "manual",
+    "description": "No counterpart. The applicable hardcoded value is `hsl(0 0% 0% / 0.6)`"
+  },
+  {
+    "replace": "$iui-button-padding(?![a-zA-Z0-9-])",
+    "with": "var(--iui-size-m)",
+    "is_regex": 1,
+    "type": "suggestion",
+    "description": "No counterpart. It used to be `$iui-xs * 4`, which equaled 16px. This is similar to `--iui-size-m`."
+  },
+  {
+    "replace": "$iui-button-padding-small(?![a-zA-Z0-9-])",
+    "with": "var(--iui-size-xs)",
+    "is_regex": 1,
+    "type": "suggestion",
+    "description": "No counterpart. It used to be `$iui-xs * 2`, which equaled 8px. This is similar to `--iui-size-xs`."
+  },
+  {
+    "replace": "$iui-button-padding-large(?![a-zA-Z0-9-])",
+    "with": "var(--iui-size-l)",
+    "is_regex": 1,
+    "type": "suggestion",
+    "description": "No counterpart. It used to be `$iui-xs * 6`, which equaled 24px. This is similar to `--iui-size-l`."
+  },
+  {
+    "replace": "var(--iui-color-picker-swatch-background)",
+    "with": "var(--iui-color-swatch-background)",
+    "is_regex": 0,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-icons-default(?![a-zA-Z0-9-])",
+    "with": "var(--iui-size-m)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-icons-small(?![a-zA-Z0-9-])",
+    "with": "var(--iui-size-s)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-icons-large(?![a-zA-Z0-9-])",
+    "with": "var(--iui-size-l)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-icons-xl(?![a-zA-Z0-9-])",
+    "with": "var(--iui-size-xl)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-icons-xxl(?![a-zA-Z0-9-])",
+    "with": "calc(2 * var(--iui-size-l)",
+    "is_regex": 1,
+    "type": "suggestion",
+    "description": "No counterpart. It used to be `3 * $iui-icons-default`, which equaled 48px. This is similar to `--iui-size-l * 2`."
+  },
+  {
+    "replace": "$iui-icons-3xl(?![a-zA-Z0-9-])",
+    "with": "var(--iui-size-2xl)",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  },
+  {
+    "replace": "$iui-icons-color-multicolor-disabled(?![a-zA-Z0-9-])",
+    "with": "$iui-icon-color-multicolor-disabled",
+    "is_regex": 1,
+    "type": "autoswap",
+    "description": ""
+  }
+]
