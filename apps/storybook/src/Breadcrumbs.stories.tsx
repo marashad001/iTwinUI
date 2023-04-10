@@ -103,49 +103,105 @@ export const Overflow: Story<BreadcrumbsProps> = (args) => {
 };
 
 export const CustomOverflowBackButton: Story<BreadcrumbsProps> = (args) => {
-  const items = Array(10)
-    .fill(null)
-    .map((_, index) => (
-      <Button
-        key={index}
-        onClick={() => action(`Clicked on breadcrumb ${index + 1}`)()}
-      >
-        Item {index}
-      </Button>
-    ));
+  const items = React.useMemo(
+    () =>
+      Array(10)
+        .fill(null)
+        .map((_, index) =>
+          index === 2 ? 'Very long item number two' : `Item ${index}`,
+        ),
+    [],
+  );
+
+  const [lastIndex, setLastIndex] = useState(items.length - 1);
+
+  const breadcrumbItems = React.useMemo(
+    () =>
+      items.slice(0, lastIndex + 1).map((item, index) => (
+        <Button
+          key={`Breadcrumb${index}`}
+          onClick={() => {
+            if (lastIndex !== index) {
+              setLastIndex(index);
+            }
+            action(`Clicked on breadcrumb ${index + 1}`)();
+          }}
+        >
+          {item}
+        </Button>
+      )),
+    [items, lastIndex],
+  );
 
   return (
-    <div
-      style={{
-        width: '50%',
-        maxWidth: 725,
-        minWidth: 150,
-        border: '1px solid lightpink',
-        padding: 8,
-      }}
-    >
-      <Breadcrumbs
-        overflowButton={(visibleCount: number) => {
-          const previousBreadcrumb =
-            visibleCount > 1 ? items.length - visibleCount : items.length - 2;
-          return (
-            <Tooltip content={`Item ${previousBreadcrumb}`} placement='bottom'>
-              <IconButton
-                aria-label={`Item ${previousBreadcrumb}`}
-                onClick={() => {
-                  action(`Visit breadcrumb ${previousBreadcrumb}`)();
-                }}
-              >
-                <SvgMore />
-              </IconButton>
-            </Tooltip>
-          );
+    <>
+      <div
+        style={{
+          width: '50%',
+          maxWidth: 725,
+          minWidth: 150,
+          border: '1px solid lightpink',
+          padding: 8,
         }}
-        {...args}
       >
-        {items}
-      </Breadcrumbs>
-    </div>
+        <Breadcrumbs
+          overflowButton={(visibleCount: number) => {
+            const previousBreadcrumb =
+              visibleCount > 1 ? lastIndex + 1 - visibleCount : lastIndex - 1;
+            return (
+              <Tooltip
+                content={
+                  previousBreadcrumb === 2
+                    ? 'Very long item number two'
+                    : `Item ${previousBreadcrumb}`
+                }
+                placement='bottom'
+              >
+                <IconButton
+                  aria-label={
+                    previousBreadcrumb === 2
+                      ? 'Very long item number two'
+                      : `Item ${previousBreadcrumb}`
+                  }
+                  style={{ paddingTop: '8px' }}
+                  onClick={() => {
+                    action(`Visit breadcrumb ${previousBreadcrumb}`)();
+                    setLastIndex(previousBreadcrumb);
+                  }}
+                >
+                  <SvgMore />
+                </IconButton>
+              </Tooltip>
+            );
+          }}
+          {...args}
+        >
+          {breadcrumbItems}
+        </Breadcrumbs>
+      </div>
+      <br />
+      <DropdownMenu
+        menuItems={(close) =>
+          Array(items.length)
+            .fill(null)
+            .map((_, index) => {
+              const onClick = () => {
+                setLastIndex(index);
+                close();
+              };
+              return (
+                <MenuItem key={index} onClick={onClick}>
+                  Item {index}
+                </MenuItem>
+              );
+            })
+        }
+      >
+        <Button aria-label='Dropdown with more breadcrumbs'>
+          All breadcrumbs
+        </Button>
+      </DropdownMenu>
+    </>
   );
 };
 
